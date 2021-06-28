@@ -61,7 +61,7 @@
 		}
 	},
 	"System Transformation": {
-		"description": "<ul><li>Achieves 100% decarbonisation by 2050.</li><li>Hydrogen for heating. Consumers less inclined to change behaviour. Lower energy efficiency. Supply side flexibility</li></ul>",
+		"description": "<ul><li>Achieves 80% decarbonisation by 2050.</li><li>Hydrogen for heating. Consumers less inclined to change behaviour. Lower energy efficiency. Supply side flexibility</li></ul>",
 		"color": "#5BCBF5",
 		"css": "system-transformation",
 		"data": {
