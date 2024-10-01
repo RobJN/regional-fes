@@ -1,4 +1,4 @@
-# National Eerngy System Operator Visualisations
+# National Energy System Operator Visualisations
 
 The following visualisations of FES are based on prior work by [Open Innovations](https://open-innovations.org/) and [Northern Powergrid](https://odileeds.github.io/northern-powergrid/2020-DFES/):
 
