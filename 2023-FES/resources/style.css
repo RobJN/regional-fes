@@ -6,22 +6,22 @@
 .noUi-value { display: none; }
 
 @font-face{
-	font-family:helveticaneue;
-	src:url(fonts/Helvetica-Roman/Helvetica-Roman.woff2) format("woff2"),url(Fonts/Helvetica-Roman/Helvetica-Roman.woff) format("woff");
+	font-family:poppins;
+	src:url(fonts/Poppins/Poppins-Regular.ttf) format("truetype");
 	font-weight:400;
 	font-style:normal;
 	font-display:swap;
 }
 @font-face{
-	font-family:helveticaneue;
-	src:url(fonts/Helvetica-Bold/Helvetica-Bold.woff2) format("woff2"),url(Fonts/Helvetica-Bold/Helvetica-Bold.woff) format("woff");
+	font-family:poppins;
+	src:url(fonts/Poppins/Poppins-Bold.ttf) format("truetype");
 	font-weight:700;
 	font-style:normal;
 	font-display:swap;
 }
 @font-face{
-	font-family:helveticaneue;
-	src:url(fonts/Helvetica-Italic/Helvetica-Italic.woff2) format("woff2"),url(fonts/Helvetica-Italic/Helvetica-Italic.woff) format("woff");
+	font-family:poppins;
+	src:url(fonts/Poppins/Poppins-Italic.ttf) format("truetype");
 	font-weight:400;
 	font-style:italic;
 	font-display:swap;
@@ -29,12 +29,12 @@
 
 body {
 	background-color: #000000;
-	font-family: helveticaneue, "Helvetica Neue", sans-serif, Arial;
-	font-size: 16px;
+	font-family: poppins, "Poppins", sans-serif, Arial;
+	font-size: .875rem;
 	color: #efefef;
 	margin: 0px;
 	padding: 0px;
-	line-height: 1.38em;
+	line-height: 1.7142857;
 }
 p, time, li, td, th, footer, div { font-weight: 300; }
 header {
@@ -52,10 +52,10 @@ header {
 }
 .padded { padding: 1em; }
 .tallpadded { padding: 4em 1em; }
-h1, h2, h3, h4 { font-weight: bold; color: #b04a2a; }
-h1 { font-size: 2em; }
-h2 { font-size: 1.7em; }
-h3 { font-size: 1.4em; }
+h1, h2, h3, h4 { font color: #7A3864; }
+h1 { font-size: 3em; }
+h2 { font-size: 2.25em; }
+h3 { font-size: 1.625em; }
 h4 { font-size: 1.2em; }
 p { font-weight: 400; }
 strong { font-weight: 700; }
@@ -64,31 +64,23 @@ ol { list-style: decimal; margin-left: 1em; }
 ol li { margin-bottom: 1em; }
 ol li:last-child { margin-bottom: 0px; }
 ul,ol { margin-bottom: 1em; }
-.page-header__branding, button, a.button, .scenario { background-color: #b04a2a; color: white; }
+.page-header__branding, button, a.button, .scenario { background-color: #7A3864; color: white; }
 .page-header__branding path { fill: white; }
 button, a.button { border: 0px; font-size: 0.875em; text-decoration: none!important; display: inline-block; padding: 0.7rem 2.5rem; cursor: pointer; line-height: 22px; font-weight: 700; border-radius: 2px; }
-button:hover, a.button:hover { background-color: #873920 !important; color: #efefef; }
+button:hover, a.button:hover { background-color: #8C6A83 !important; color: #efefef; }
 a:hover { text-decoration: underline; }
 h2 a, h3 a, p a { text-decoration: underline; color: white!important; }
 h2 a:visited, h3 a:visited, p a:visited { color: #722ea5; }
 footer a,footer a:visited { color: inherit; }
 .warning { color: rgb(95, 82, 7); background-color: rgb(251, 245, 208); text-align:center; }
 #error, .error { color: rgb(95, 7, 28); background-color: rgb(251, 208, 218); text-align:center; }
-.phb-topnav { background: white; }
-.phb-topnav .holder {
-	display: block;
-	text-align:left;
-	position: relative;
-	height: 100%;
-	padding: 11px 1em;
-}
 .phb-topnav .holder a { display: inline-block; line-height: 25px; font-size: 1em; line-height: 0; }
 .phb-topnav img {
 	margin:auto;
 	height: 28px;
 }
 .page-header__branding.title {
-	background-image: url('FES-Banner-22-no-grain_51.jpg');
+	background-image: url('neso-header.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -113,14 +105,14 @@ footer a,footer a:visited { color: inherit; }
 	margin-top: -143px;
 }
 .page-header__branding.title .glory { position: relative; top: 60%; height: 40%; line-height: 1.3em; }
-.page-header h1 { font-size: 3rem; line-height: 1.16; color: black; overflow-wrap: break-word; padding: 0; }
+.page-header h1 { font-size: 3rem; line-height: 1.16; color: #7A3864; overflow-wrap: break-word; padding: 0; }
 .hero-text { padding-top: 20px; padding-bottom: 10px; font-size: 1.25rem; line-height: 1.29; color: black; }
 .hero-text p { margin-bottom: 0; }
 
 table td.n { text-align: center; }
 
 .b1-bg { background-color: #ffffff; }
-.b2-bg { background-color: #454546; color: white!important; }
+.b2-bg { background-color: #3F0731; color: white!important; }
 .bk-bg { background-color: #6D6D6D; }
 .b3-bg, .github:hover { background-color: #999999; color: black!important; }
 .b4-bg { background-color: #bbbbbb; color: black!important; }
@@ -129,12 +121,20 @@ table td.n { text-align: center; }
 	background: white;
 	color: black !important;
 }
+.phb-topnav { background: #3F0731; }
+.phb-topnav .holder {
+	display: block;
+	text-align:left;
+	position: relative;
+	height: 100%;
+	padding: 11px 1em;
+}
 a.b1-bg:hover, a.b2-bg:hover, a.b3-bg:hover, a.b4-bg:hover, a.b5-bg:hover, a.b6-bg:hover { background-color: #000000; color: white!important; }
 .b6-bg .button { background-color: black; color: white!important; }
 
 .white-title, .leaflet-control-container .year { color: white !important; }
 
-.footer-heading { color: #ffbf22 !important; }
+.footer-heading { color: #fff !important; }
 
 @media only screen and (max-width: 1120px) {
 	.note { margin-left: 0; }
@@ -205,7 +205,7 @@ footer ul { margin-left: 2em; }
 .grid.tabs { display: grid; grid-template-columns: 50% 50%; border-bottom: 1px solid #cdcdcd; }
 .grid.tabs button { padding: 0.25em; border-radius: 0; background-color: white; color: black;  border-bottom: 4px solid transparent; }
 .grid.tabs button:focus, .grid.tabs button:hover { outline: 0; background-color: white!important; }
-.grid.tabs button[aria-selected="true"] { border-color: #b04a2a; }
+.grid.tabs button[aria-selected="true"] { border-color: #7A3864; }
 
 
 /* Bar chart */
